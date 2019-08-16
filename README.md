@@ -13,5 +13,7 @@ My initial plan is to make the app in:
 
 Depending on how far I get with Laravel + Vue, I will also do Vue separately.
 
+I will use Bootstrap 4 with some customizations. As the apps get more comlex I will add more custom styles to get closer to the design.
+
 ## Design
 ###### To be continued...
