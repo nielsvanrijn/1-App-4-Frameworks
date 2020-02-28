@@ -21,7 +21,6 @@ I will use Bootstrap 4 with some customizations. As the apps get more comlex I w
 ### Prerequisites
 The `v-focus` directive is required for the `LabModal` component.\
 Please make sure
-
 ```typescript
 Vue.directive('focus', {
     inserted: function (el) {
