@@ -17,3 +17,19 @@ I will use Bootstrap 4 with some customizations. As the apps get more comlex I w
 
 ## Design
 ###### To be continued...
+
+```typescript
+Vue.directive('focus', {
+    inserted: function (el) {
+        el.focus();
+    },
+    update: function (el, binding) {
+        var value = binding.value;
+        if (value) {
+            Vue.nextTick(function () {
+                el.focus();
+            });
+        }
+    }
+});
+```
